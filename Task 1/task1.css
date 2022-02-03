@@ -1,0 +1,36 @@
+body {
+  background-color: red;
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-text {
+  color: white;
+}
+.color-text {
+  padding: 3px;
+  color: blue;
+}
+.text-container {
+  width: fit-content;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+}
+.main-container {
+  text-align: center;
+}
+button {
+  color: black;
+  background-color: red;
+  font-size: large;
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}

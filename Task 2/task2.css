@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(199, 194, 194);
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  color: grey;
+  background-color: rgb(199, 194, 194);
+  font-size: xx-large;
+  border-color: grey;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 6px;
+}
+
+.border-change {
+  border-color: rgb(63, 219, 219);
+  border-radius: 5px;
+}
+
+.text-counter {
+  color: green;
+  font-size: 72px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.text-heading {
+  color: rgb(68, 65, 65);
+  font-size: 72px;
+}
+.main-container {
+  text-align: center;
+}

@@ -1,0 +1,120 @@
+/* Check out the navigation section. It's the most important part. */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.big-image {
+  height: 65vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.38);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 26px;
+}
+
+.motto {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.services {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.row {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+#vids {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#vids a:first-of-type {
+  margin-bottom: 5px;
+}
+
+
+nav {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  transition: all ease .65s;
+  z-index: 100;
+  width: 100%;
+}
+
+nav.scroll {
+  display: flex;
+  padding: 10px;
+  background: white;
+  padding: 25px;
+  position: fixed;
+}
+
+nav.scroll span {
+  font-size: 24px;
+  margin-left: 10px;
+  color: rgb(46, 44, 44);
+}
+
+nav.scroll li {
+  display: inline-block;
+  color: rgb(65, 62, 62);
+  margin-right: 15px;
+}

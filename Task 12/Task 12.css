@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: rgb(73, 73, 64);
+}
+
+canvas{
+    height: 720px;
+    width: 1280px;
+    border: 1px solid black;
+}
+
+.title{
+    font-size: 4pc;
+}
+
+
+.scoreCard h1{
+    display:inline-block;
+    font-size: 3pc;
+    color: white;
+
+}
